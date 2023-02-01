@@ -4,15 +4,13 @@ body {
     background-attachment: fixed;
 }
 
-.carousel {
-    margin-top: -18px;
-    padding: 0;
+.topnav-bar {
+     background-color: #5A5A5A !important;
 }
 
-.paraponerfondo {
-    background-image: url(../imagenes/textura-navbar-top1.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+.carousel {
+    margin-top: 0px;
+    padding: 0;
 }
 
 .mid-items {
@@ -66,6 +64,7 @@ h3 {
     padding-bottom: 20px;
     background-color: grey;
     padding-left: 30px;
+    box-shadow: 3px 4px 4px #5A5A5A;
 }
 
 input {
@@ -99,15 +98,6 @@ span {
     color: aqua;
 }
 
-button {
-    padding: 1px 12px;
-    background-color: aqua;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-}
+@media (max-width:600px) {
 
-button:hover {
-    background-color: aquamarine;
 }
