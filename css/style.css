@@ -98,6 +98,19 @@ span {
     color: aqua;
 }
 
-@media (max-width:600px) {
+.envios {
+    text-align: center;
+    text-shadow: 3px 3px 4px #717171;
+    margin-top: 150px;
+}
 
+.quejatecontumama {
+    box-sizing: border-box;
+    margin-left: 500px;
+    margin-top: 100px;
+    width: 900px;
+    height: 300px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px #717171;
 }
